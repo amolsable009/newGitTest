@@ -16,3 +16,11 @@ git push -u origin master
 
 git remote add origin https://github.com/amolsable009/newGitTest.git
 git push -u origin master
+
+
+trigger OpportunityTrigger on Opportunity (after insert, after update, before insert, before update) {
+	
+	system.debug('==== OpportunityTrigger : ');
+	
+	
+	
