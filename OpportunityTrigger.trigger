@@ -2,5 +2,5 @@ trigger OpportunityTrigger on Opportunity (after insert, after update, before in
 	
 	system.debug('==== OpportunityTrigger : ');
 	
-	test hhvhjchvj
+	
 }
